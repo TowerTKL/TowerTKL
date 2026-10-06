@@ -10,16 +10,16 @@ Based in Brazil · [pedeja.app](https://pedeja.app) · open to freelance and ful
 
 ### Things I'm working on
 
-**[PedeJá](https://pedeja.app)**
-A multi-tenant platform for pizzerias. Customers order from a public menu, the store runs its counter and kitchen from the back-office, and each location pays a monthly subscription. Every tenant is isolated at the database level with Postgres Row-Level Security.
+**[PedeJá](https://pedeja.app)**<br>
+A multi-tenant platform for pizzerias. Customers order from a public menu, the store runs its counter and kitchen from the back-office, and each location pays a monthly subscription. Every tenant is isolated at the database level with Postgres Row-Level Security.<br>
 <sub>Next.js · TypeScript · PostgreSQL · Drizzle · better-auth · Stripe · Redis · Vercel</sub>
 
-**An ERP for a wholesale produce distributor**
-Replacing a legacy system with something the team enjoys using: orders, picking, checking, deliveries and tracking the returnable crates that go out with every truck.
+**An ERP for a wholesale produce distributor**<br>
+Replacing a legacy system with something the team enjoys using: orders, picking, checking, deliveries and tracking the returnable crates that go out with every truck.<br>
 <sub>TypeScript · Next.js · PostgreSQL</sub>
 
-**Selling over WhatsApp**
-A white-label platform where customers place orders by chatting with an AI-assisted bot, and the team handles picking and delivery from an admin panel.
+**Selling over WhatsApp**<br>
+A white-label platform where customers place orders by chatting with an AI-assisted bot, and the team handles picking and delivery from an admin panel.<br>
 <sub>TypeScript · Node.js · LLMs</sub>
 
 Most of this lives in private repos because it's client work or a commercial product. I'm always happy to walk someone through how it's built.
