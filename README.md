@@ -4,14 +4,14 @@ I build software that people actually run their business on. Right now that mean
 
 I like owning the whole thing: the database design, the auth, the billing, the screen the cashier taps at 9pm on a Friday.
 
-Based in Brazil · [pedeja.app](https://pedeja.app) · open to freelance and full-time work
+Based in Brazil · [PizzaFlow](https://pizza-saas-delta.vercel.app) · open to freelance and full-time work
 
 ---
 
 ### Things I'm working on
 
-**[PedeJá](https://pedeja.app)**<br>
-A multi-tenant platform for pizzerias. Customers order from a public menu, the store runs its counter and kitchen from the back-office, and each location pays a monthly subscription. Every tenant is isolated at the database level with Postgres Row-Level Security.<br>
+**[PizzaFlow](https://pizza-saas-delta.vercel.app)**<br>
+A complete system for pizzerias that runs in the browser. Customers order from an online menu with no app to install and pay by Pix straight to the store's key. Behind the counter, the team runs the cash register, a kitchen screen driven from the number pad, table orders by QR code and delivery routes sent to the driver's WhatsApp. Each store pays a flat monthly subscription, with no commission per order, and every pizzeria's data stays isolated from the others.<br>
 <sub>Next.js · TypeScript · PostgreSQL · Drizzle · better-auth · Stripe · Redis · Vercel</sub>
 
 **An ERP for a wholesale produce distributor**<br>
@@ -22,7 +22,7 @@ Replacing a legacy system with something the team enjoys using: orders, picking,
 A white-label platform where customers place orders by chatting with an AI-assisted bot, and the team handles picking and delivery from an admin panel.<br>
 <sub>TypeScript · Node.js · LLMs</sub>
 
-Most of this lives in private repos because it's client work or a commercial product. I'm always happy to walk someone through how it's built.
+Most of this lives in private repos, since it's either my own product or systems I build at work. I'm always happy to walk someone through how it's built.
 
 ---
 
