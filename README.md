@@ -12,7 +12,7 @@ Based in Brazil · [PizzaFlow](https://pizza-saas-delta.vercel.app) · [LinkedIn
 
 ### Things I'm working on
 
-**[PizzaFlow](https://pizza-saas-delta.vercel.app)**<br>
+**[PizzaFlow](https://pizza-saas-delta.vercel.app)** · [overview and screenshots](https://github.com/TowerTKL/pizzaflow)<br>
 A complete system for pizzerias that runs in the browser. Customers order from an online menu with no app to install and pay by Pix straight to the store's key. Behind the counter, the team runs the cash register, a kitchen screen driven from the number pad, table orders by QR code and delivery routes sent to the driver's WhatsApp. Each store pays a flat monthly subscription, with no commission per order, and every pizzeria's data stays isolated from the others.<br>
 <sub>Next.js · TypeScript · PostgreSQL · Drizzle · better-auth · Stripe · Redis · Vercel</sub>
 
@@ -23,7 +23,7 @@ At the company I work for, I built the B2C sales app that's already live in prod
 A white-label platform where customers place orders by chatting with an AI-assisted bot, and the team handles picking and delivery from an admin panel.<br>
 <sub>TypeScript · Node.js · LLMs</sub>
 
-Most of this lives in private repos, since it's either my own product or systems I build at work. I'm always happy to walk someone through how it's built.
+Most of this lives in private repos, since it's either my own product or systems I build at work. The pattern I use to keep each pizzeria's data isolated is open source in [multi-tenant-rls](https://github.com/TowerTKL/multi-tenant-rls), with tests that try to break it. I'm always happy to walk someone through the rest.
 
 ---
 
@@ -43,7 +43,7 @@ Most of this lives in private repos, since it's either my own product or systems
 
 ### What I care about
 
-- Data that stays where it belongs. Tenant isolation is enforced by the database, not by remembering a `WHERE` clause.
+- Data that stays where it belongs. Every query is scoped to a tenant, and Postgres row-level security is there for the day someone forgets a `WHERE` clause.
 - Billing that just works. Subscriptions, webhooks and plan changes nobody has to think about.
 - Software for the floor, not the boardroom. Built for drivers, warehouse staff and store owners, and tested with them.
 - AI as a multiplier, not a crutch. I know my stack in depth and use Claude every day to apply it faster, from first prototype to production.
