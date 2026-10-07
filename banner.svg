@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="skuthyn, Full-Stack Developer, building PizzaFlow">
+<title>skuthyn · Full-Stack Developer · building PizzaFlow</title>
+<defs>
+<clipPath id="r"><rect width="1280" height="320" rx="22"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.55"><stop offset="0" stop-color="#D61C24"/><stop offset=".6" stop-color="#E8222A"/><stop offset="1" stop-color="#EE2C33"/></linearGradient>
+<radialGradient id="hl" cx="0.28" cy="0.3" r="0.55" gradientTransform="translate(0.28 0.3) scale(1 4) translate(-0.28 -0.3)"><stop offset="0" stop-color="#F23A41"/><stop offset="1" stop-color="#F23A41" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="1.25" fill="#fff" fill-opacity=".1"/></pattern>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset=".6" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+<mask id="m"><rect width="1280" height="320" fill="url(#fade)"/></mask>
+</defs>
+<g clip-path="url(#r)">
+<rect width="1280" height="320" fill="url(#bg)"/>
+<rect width="1280" height="320" fill="url(#hl)"/>
+<rect width="1280" height="320" fill="url(#dots)" mask="url(#m)"/>
+<path fill="#fff" d="M69,97 L69,223 L96,223 L106,223 L148,181 L190,223 L226,223 L166,163 L202,127 L202,127 L232,97 L195,97 L96,197 L96,97 L69,97 Z M253,123 L253,223 L279,223 L279,123 L294,123 L321,97 L279,97 L253,97 L237,97 L211,123 L253,123 Z"/>
+<path fill="#fff" d="M376 135C385 135 391 130 391 124C391 120 388 117 382 116L375 115C373 114 372 113 372 112C372 110 374 109 376 109C379 109 381 111 381 113H390C390 107 385 102 376 102C367 102 362 106 362 112C362 117 365 120 371 122L377 123C379 123 381 124 381 125C381 127 379 128 376 128C373 128 372 126 371 124H361C362 131 368 135 376 135ZM394 134H404V125L406 122L414 134H425L413 117L425 103H413L404 114H404V90H394ZM437 135C442 135 445 133 447 129V134H457V103H447V120C447 124 445 126 442 126C438 126 436 124 436 120V103H426V123C426 130 430 135 437 135ZM481 103H474V95H464V103H459V111H464V125C464 131 467 134 475 134H481V126H477C475 126 474 126 474 124V111H481ZM493 117C493 113 495 111 499 111C502 111 504 113 504 117V134H514V115C514 107 510 102 503 102C498 102 495 104 493 108V90H483V134H493ZM518 146H524C530 146 533 144 535 138L548 103H538L533 117C532 119 532 122 531 124C530 122 530 119 529 117L524 103H514L526 134L525 135C525 138 524 138 522 138H518ZM560 117C560 113 562 111 565 111C568 111 570 113 570 117V134H580V115C580 107 576 102 569 102C565 102 562 105 559 108V103H550V134H560Z"/>
+<g fill="#fff" font-family="Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<text x="360" y="179" textLength="523.6" lengthAdjust="spacingAndGlyphs" font-weight="700" font-size="26">Full-Stack Developer · building PizzaFlow</text>
+<rect x="360.8" y="203.8" width="119.3" height="36.5" rx="18.25" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".55" stroke-width="1.5"/><text x="375.5" y="228" textLength="89.8" lengthAdjust="spacingAndGlyphs" font-weight="600" font-size="17">TypeScript</text><rect x="491.5" y="203.8" width="87.3" height="36.5" rx="18.25" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".55" stroke-width="1.5"/><text x="506.3" y="228" textLength="57.8" lengthAdjust="spacingAndGlyphs" font-weight="600" font-size="17">Next.js</text><rect x="590.3" y="203.8" width="126.7" height="36.5" rx="18.25" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".55" stroke-width="1.5"/><text x="605.0" y="228" textLength="97.2" lengthAdjust="spacingAndGlyphs" font-weight="600" font-size="17">PostgreSQL</text><rect x="728.5" y="203.8" width="92.6" height="36.5" rx="18.25" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".55" stroke-width="1.5"/><text x="743.2" y="228" textLength="63.1" lengthAdjust="spacingAndGlyphs" font-weight="600" font-size="17">Node.js</text><rect x="832.6" y="203.8" width="87.3" height="36.5" rx="18.25" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".55" stroke-width="1.5"/><text x="847.4" y="228" textLength="57.8" lengthAdjust="spacingAndGlyphs" font-weight="600" font-size="17">Claude</text>
+</g>
+</g>
+</svg>
