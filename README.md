@@ -1,3 +1,5 @@
+<img src="banner.svg" alt="skuthyn · Full-Stack Developer · building PizzaFlow" width="100%">
+
 ## Hey, I'm skuthyn
 
 I build software that people actually run their business on. Right now that means a SaaS for pizzerias, the systems behind a produce distributor, and the small tools that keep everything moving in between.
