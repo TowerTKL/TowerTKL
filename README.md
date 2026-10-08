@@ -6,24 +6,25 @@ I build software that people actually run their business on. Right now that mean
 
 I like owning the whole thing: the database design, the auth, the billing, the screen the cashier taps at 9pm on a Friday.
 
-Based in Brazil · [PizzaFlow](https://pizza-saas-delta.vercel.app) · [LinkedIn](https://www.linkedin.com/in/kevyntintino) · open to freelance and full-time work
+Based in Brazil · [PizzaFlow](https://pizza-saas-delta.vercel.app) · [LinkedIn](https://www.linkedin.com/in/kevyntintino) · [Email](mailto:skuthyn.github@gmail.com) · open to freelance and full-time work
 
 ---
 
 ### Things I'm working on
 
-**[PizzaFlow](https://pizza-saas-delta.vercel.app)** · [overview and screenshots](https://github.com/TowerTKL/pizzaflow)<br>
-A complete system for pizzerias that runs in the browser. Customers order from an online menu with no app to install and pay by Pix straight to the store's key. Behind the counter, the team runs the cash register, a kitchen screen driven from the number pad, table orders by QR code and delivery routes sent to the driver's WhatsApp. Each store pays a flat monthly subscription, with no commission per order, and every pizzeria's data stays isolated from the others.<br>
-<sub>Next.js · TypeScript · PostgreSQL · Drizzle · better-auth · Stripe · Redis · Vercel</sub>
+**[PizzaFlow](https://pizza-saas-delta.vercel.app)** · [overview and architecture](https://github.com/TowerTKL/pizzaflow)<br>
+A complete system for pizzerias that runs in the browser. Customers order from an online menu with no app to install, pay by Pix straight to the store's key, and can collect stamps on a loyalty card that is just their phone number. Behind the counter, the team runs the cash register, a kitchen screen driven from the number pad, table orders by QR code, delivery routes sent to the driver's WhatsApp, and reports with a customer list that builds itself. Pricing is a flat monthly subscription per store, with no commission per order, and every pizzeria only sees its own data.<br>
+<sub>Next.js · TypeScript · PostgreSQL · Drizzle · better-auth · Stripe · Vercel</sub><br>
+<sub>3,500+ automated tests · 50+ tables · 45+ migrations · 240+ commits since July 2026</sub>
 
 **Systems for a produce distributor**<br>
-At the company I work for, I built the B2C sales app that's already live in production, and I'm building a returnable-crate tracker: drivers log every drop-off and pickup with a photo while their route is tracked.
+At the company I work for, I built the sales app that's already live in production, and I'm building a returnable-crate tracker: drivers log every drop-off and pickup with a photo while their route is tracked.
 
 **Selling over WhatsApp**<br>
-A white-label platform where customers place orders by chatting with an AI-assisted bot, and the team handles picking and delivery from an admin panel.<br>
+A white-label platform for produce sellers, where customers place orders by chatting with an AI-assisted bot, and the team handles picking and delivery from an admin panel.<br>
 <sub>TypeScript · Node.js · LLMs</sub>
 
-Most of this lives in private repos, since it's either my own product or systems I build at work. The pattern I use to keep each pizzeria's data isolated is open source in [multi-tenant-rls](https://github.com/TowerTKL/multi-tenant-rls), with tests that try to break it. I'm always happy to walk someone through the rest.
+Most of this lives in private repos, since it's either my own product or systems I build at work. My reference implementation of tenant isolation in Postgres is open source in [multi-tenant-rls](https://github.com/TowerTKL/multi-tenant-rls), with tests that try to break it. I'm always happy to walk someone through the rest.
 
 ---
 
@@ -43,7 +44,7 @@ Most of this lives in private repos, since it's either my own product or systems
 
 ### What I care about
 
-- Data that stays where it belongs. Every query is scoped to a tenant, and Postgres row-level security is there for the day someone forgets a `WHERE` clause.
-- Billing that just works. Subscriptions, webhooks and plan changes nobody has to think about.
-- Software for the floor, not the boardroom. Built for drivers, warehouse staff and store owners, and tested with them.
+- Data that stays where it belongs. Queries are scoped to a tenant explicitly, and tests fail the moment a covered query loses its filter.
+- Billing that just works. Subscriptions, idempotent webhooks and plan changes nobody has to think about.
+- Software for the floor, not the boardroom. Built for drivers, warehouse staff and store owners.
 - AI as a multiplier, not a crutch. I know my stack in depth and use Claude every day to apply it faster, from first prototype to production.
