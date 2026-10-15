@@ -1,34 +1,33 @@
 <img src="banner.svg" alt="skuthyn · Full-Stack Developer · building PizzaFlow" width="100%">
 
-## Hey, I'm skuthyn
+## Hey, I'm Kevyn (skuthyn)
 
-I build software that people actually run their business on. Right now that means a SaaS for pizzerias, the systems behind a produce distributor, and the small tools that keep everything moving in between.
+I'm a full-stack developer from São Paulo. I got into tech through IT support: help desk, servers, backups, the company ERP. I kept writing scripts to get rid of the repetitive work, and at some point I was building the systems instead of just keeping them running.
 
-I like owning the whole thing: the database design, the auth, the billing, the screen the cashier taps at 9pm on a Friday.
+Today I work as an IT analyst at a produce distributor, I'm in my last semester of Computer Science, and on the side I'm building PizzaFlow, a system for pizzerias.
 
-Based in Brazil · [PizzaFlow](https://pizza-saas-delta.vercel.app) · [LinkedIn](https://www.linkedin.com/in/kevyntintino) · [Email](mailto:skuthyn.github@gmail.com) · open to freelance and full-time work
+[PizzaFlow](https://pizza-saas-delta.vercel.app) · [LinkedIn](https://www.linkedin.com/in/kevyntintino) · [Email](mailto:skuthyn.github@gmail.com) · open to freelance and full-time work
 
 ---
 
-### Things I'm working on
+### What I'm working on
 
-**[PizzaFlow](https://pizza-saas-delta.vercel.app)** · [overview and architecture](https://github.com/TowerTKL/pizzaflow)<br>
-A complete system for pizzerias that runs in the browser. Customers order from an online menu with no app to install, pay by Pix straight to the store's key, and can collect stamps on a loyalty card that is just their phone number. Behind the counter, the team runs the cash register, a kitchen screen driven from the number pad, table orders by QR code, delivery routes sent to the driver's WhatsApp, and reports with a customer list that builds itself. Pricing is a flat monthly subscription per store, with no commission per order, and every pizzeria only sees its own data.<br>
+**[PizzaFlow](https://pizza-saas-delta.vercel.app)** ([overview and architecture](https://github.com/TowerTKL/pizzaflow))<br>
+My own product. Customers order from a menu link, no app to install, pay with Pix straight to the store, and can collect stamps on a loyalty card that is just their phone number. Behind the counter, the team runs the cash register, a kitchen screen you drive with the number pad, table orders by QR code and delivery routes that go to the driver's WhatsApp. There are also reports and a customer list that fills itself in. Each store pays a monthly fee, there's no cut per order, and every pizzeria only sees its own data. I do all of it, from the database to the screens.<br>
 <sub>Next.js · TypeScript · PostgreSQL · Drizzle · better-auth · Stripe · Vercel</sub><br>
 <sub>3,500+ automated tests · 50+ tables · 45+ migrations · 240+ commits since July 2026</sub>
 
-**Systems for a produce distributor**<br>
-At the company I work for, I built the sales app that's already live in production, and I'm building a returnable-crate tracker: drivers log every drop-off and pickup with a photo while their route is tracked.
+**At work**<br>
+I built the sales app the company uses today, and now I'm on the crate tracker: drivers log every drop-off and pickup with a photo, and we follow the route while they're out.
 
-**Selling over WhatsApp**<br>
-A white-label platform for produce sellers, where customers place orders by chatting with an AI-assisted bot, and the team handles picking and delivery from an admin panel.<br>
+I also work on a WhatsApp sales platform for produce sellers. Customers order by chatting with a bot that has AI help, and the team handles picking and delivery from an admin panel.<br>
 <sub>TypeScript · Node.js · LLMs</sub>
 
-Most of this lives in private repos, since it's either my own product or systems I build at work. My reference implementation of tenant isolation in Postgres is open source in [multi-tenant-rls](https://github.com/TowerTKL/multi-tenant-rls), with tests that try to break it. I'm always happy to walk someone through the rest.
+Most of this code is private, since it's either my product or the company's. One thing I did open up is [multi-tenant-rls](https://github.com/TowerTKL/multi-tenant-rls), a small example of keeping tenants apart with Postgres row-level security, with tests that try to break it. If you want to see more, send me a message and I'll walk you through it.
 
 ---
 
-### Tools I reach for
+### Tools I use
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -42,9 +41,9 @@ Most of this lives in private repos, since it's either my own product or systems
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 
-### What I care about
+### How I work
 
-- Data that stays where it belongs. Queries are scoped to a tenant explicitly, and tests fail the moment a covered query loses its filter.
-- Billing that just works. Subscriptions, idempotent webhooks and plan changes nobody has to think about.
-- Software for the floor, not the boardroom. Built for drivers, warehouse staff and store owners.
-- AI as a multiplier, not a crutch. I know my stack in depth and use Claude every day to apply it faster, from first prototype to production.
+- Working in support taught me to think about the person using the screen, and about what happens when something breaks in the middle of a busy shift. Most of what I build is used by drivers, warehouse staff and store owners.
+- I care a lot about each customer's data staying in its own place. Every query is filtered by account and store, and there are tests that fail if one of them loses that filter.
+- I like billing to just work: subscriptions, webhooks that can arrive twice without breaking anything, plan changes nobody has to think about.
+- I use Claude every day. I know my stack well and I review what it writes, it just gets me from the first version to production faster.
